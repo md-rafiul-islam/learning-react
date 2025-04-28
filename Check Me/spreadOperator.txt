@@ -1,0 +1,5 @@
+spread operator is important in react.
+only works in react 
+link: https://www.w3schools.com/react/react_es6_spread.asp
+
+
