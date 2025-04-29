@@ -1,31 +1,36 @@
 import React from "react";
 import Products from "./Products";
 
-const product1={
+const products =[
+    {
     name: "computer",
-    price: 100
-}
-
-const product2={
-    name: "computer",
-    price: 200
-}
-const product3={
-    name: "computer",
-    price: 300
-}
-const product4={
-    name: "computer",
-    price: 400
-}
+        price: 100
+    },
+    {
+        name: "computer",
+        price: 200
+    },{
+        name: "computer",
+        price: 300
+    },{
+        name: "computer",
+        price: 400
+    }
+]
 
 const ProductList=()=>{
+    // const callback=(element)=>{
+    //     return <Products{...element}/>;
+    // }
+
+    // const productlist = products.map(callback);
+ 
+
    return (
     <div>
-        <Products name={product1.name} price={product1.price} />        
-        <Products {...product2}/>   {/* this technic is called spread operator */}
-        <Products {...product3}/>
-        <Products {...product4}/> 
+        {products.map((element)=>{
+            return <Products {...element}/>
+        })}
     </div>
    )
 }
