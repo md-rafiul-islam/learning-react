@@ -1,9 +1,9 @@
 import React from "react";
 
-const Products = ({name, price})=>{
+const Products = ({name, price,image})=>{
     return (
         <div>
-            <h2>Images</h2>
+            <img src={image} alt="" />
             <h3>{name}</h3>
             <h4>{price}</h4>
         </div>
