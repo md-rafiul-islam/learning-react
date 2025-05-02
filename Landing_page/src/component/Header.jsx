@@ -2,13 +2,13 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div class="container">
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Introduction</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    <div className="container">
+    <header className="d-flex justify-content-center py-3">
+      <ul className="nav nav-pills">
+        <li className="nav-item"><a href="#" className="nav-link" aria-current="page">Introduction</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Skills</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Projects</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
       </ul>
     </header>
   </div>
