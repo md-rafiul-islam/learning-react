@@ -14,8 +14,8 @@ function App() {
     <>
     <Header/>
     <Introduction/>
-    <Projects></Projects>
     <Skills></Skills>
+    <Projects></Projects>
     <Footer></Footer>
     </>
   )
